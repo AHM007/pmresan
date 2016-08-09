@@ -13,8 +13,8 @@ import logging
 import subprocess
 import requests
 import os
-token = "199356209:AAHMUXxTeFXnsqwWjZxJD2Zc" #token
-sudo = 122774063 #admin
+token = "247164415:AAHuqN8CVeTv7VjS3hNjaCq4mng5bwYFO6c" #token
+sudo = 133839753 #admin
 bot = telebot.TeleBot(token)
 db = "https://api.telegram.org/bot{}/getMe?".format(token)
 res = urllib.request.urlopen(db)
